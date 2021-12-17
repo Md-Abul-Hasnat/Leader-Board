@@ -1,0 +1,141 @@
+#top-bar{
+    background-color: #562EFF;
+    margin-bottom: 50px;
+}
+.logo-text{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.navbar-brand{
+    margin-left: 25px;
+}
+ul li a{
+    margin: 0px 15px;
+}
+.nav-item .link{
+    margin-top: 10px;
+}
+.player-name{
+    width: 56px;
+}
+
+.top-player-heading{
+    margin-bottom: 40px;
+    color: #562EFF;
+    font-weight: 600;
+}
+.player-row{
+    border-bottom: 1px solid #D1D1D1;
+}
+.name{
+    font-weight: 600;
+}
+@media (max-width: 575.98px) { 
+    .top-player-heading{
+        padding-left: 120px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .player-row{
+        padding-left: 130px;
+    }
+    .blog-div{
+        padding-left: 20px;
+    }
+}
+
+
+.top-blog-heading{
+    color:#562EFF ;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.blog-img{
+    width: 177px;
+    
+}
+.blog-text{
+    font-weight: 600;
+}
+.blog-writer{
+    color: #562EFF;
+}
+.by{
+    color: grey;
+}
+@media (min-width:768px) {
+    .blog-text{
+        position: relative;
+        left: 50px;
+    }
+    .blog-writer{
+        position: relative;
+        left: 50px;
+    }
+ }
+ @media (min-width:768px) and (max-width:990px){
+     .blog-text{
+         position: relative;
+        left: 70px;
+     }
+     .blog-writer{
+         position: relative;
+         left: 70px;
+     }
+ }
+ @media (max-width:768px){
+     .text{
+         padding-left: 10px;
+     }
+ }
+ .blog-row{
+     border-bottom: 1px solid #D1D1D1;
+ }
+
+
+ .card{
+     border: none;
+ }
+ .card-footer{
+     border-top: none;
+     background-color: white;
+ }
+ .card-time{
+     color: #FF4A60;
+     font-weight: 600;
+ }
+ .time{
+     background-color: #FFE4E8;
+     border-radius: 15px;
+     padding: 0px 5px;
+ }
+ .second-time{
+    background-color: #FEE5DF;
+    border-radius: 15px;
+    padding: 0px 5px;
+ }
+ .second-card-time{
+     color: #ED6B4F;
+     font-weight: 600;
+ }
+ .col{
+     margin-bottom: 30px;
+ }
+ #copyright{
+     text-align: center;
+     padding-top: 40px;
+     color: gray;
+ }
+
+ @media (max-width:576px){
+    #copyright{
+        text-align: center;
+        padding-top: 40px;
+        color: gray;
+        font-size: 13px;
+
+    }
+ }
